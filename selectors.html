@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mixed selectors</title>
+    <style>
+        *{
+             /*margin: 0;*/
+        }
+        .red{
+            font-size: larger;
+        }
+        .bold{
+            font-weight: bold;
+        }
+        .bol,.bolu{
+            background-color: purple;
+        }
+        input[type="password"]{
+            color: red;
+        }
+        span{
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <h3>Explore <span>Mixed Selectors:</span> </h3>
+    <p class="red ">My first line CSS</p>
+    <p>My second line CSS</p>
+    <p class="red bold">My third line CSS</p>
+    <p class="bol">My fourth line CSS</p>
+    <p class="bolu">My fifth line CSS</p>
+    <form action="">
+        <input type="text">
+        <input type="password" name="" id="">
+    </form>
+</body>
+</html>
